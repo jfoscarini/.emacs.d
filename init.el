@@ -28,6 +28,8 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
+(load "misc-settings.el")
+
 ;; Scratch buffer serves me better at org-mode
 (setq initial-major-mode 'org-mode)
 (setq initial-scratch-message "\
