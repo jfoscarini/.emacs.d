@@ -19,5 +19,14 @@
 		(when (stringp method)
 		  (member method '("su" "sudo"))))))))
 
+;; Activate ido with flx matching
+(use-package flx-ido
+  :config
+  (ido-mode 1)
+  (ido-everywhere 1)
+  (flx-ido-mode 1)
+  (setq ido-enable-flex-matching 1
+	ido-use-faces nil))
+
 ;; Trailing whitespaces are not acceptable
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
