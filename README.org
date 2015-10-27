@@ -1,0 +1,3 @@
+#+TITLE:	My Emacs dotfile
+#+AUTHOR:	João Foscarini
+#+EMAIL:	jfoscarini@gmail.com

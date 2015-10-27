@@ -1,0 +1,29 @@
+# Compiled
+*.elc
+
+# Packaging
+.cask
+
+# Custom settings
+custom.el
+
+# Directories containing local files
+elpa/
+auto-save-list/
+backups/
+autosaves/
+url/
+games/
+org
+
+# Files containing info related to other sessions
+ido.last
+tramp
+.org-id-locations
+/ido.last~
+/bookmarks
+/projectile-bookmarks.eld
+/.mc-lists.el
+/image-dired/
+/timelog
+/eshell/
