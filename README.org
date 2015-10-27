@@ -1,3 +1,7 @@
 #+TITLE:	My Emacs dotfile
 #+AUTHOR:	João Foscarini
 #+EMAIL:	jfoscarini@gmail.com
+
+This config is highly inspired by:
+  - [[https://github.com/diegolascasas/.emacs.d][diegolascasas/.emacs.d]]
+  - [[https://github.com/syl20bnr/spacemacs][spacemacs]]
