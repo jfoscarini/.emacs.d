@@ -2,6 +2,14 @@
 #+AUTHOR:	João Foscarini
 #+EMAIL:	jfoscarini@gmail.com
 
+I like Vim.
+I like Emacs.
+I like Vim and Emacs.
+
+Join me in my adventures to migrate from Vim to Emacs' [[http://emacswiki.org/emacs/Evil][evil]] side.
+
+This will probably be a lenghty process and it is now in very early stages.
+
 This config is highly inspired by:
   - [[https://github.com/diegolascasas/.emacs.d][diegolascasas/.emacs.d]]
   - [[https://github.com/syl20bnr/spacemacs][spacemacs]]
