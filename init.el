@@ -28,7 +28,10 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
+;; Load settings
 (load "misc-settings.el")
+(when window-system
+  (load "window-system-settings"))
 
 ;; Scratch buffer serves me better at org-mode
 (setq initial-major-mode 'org-mode)
