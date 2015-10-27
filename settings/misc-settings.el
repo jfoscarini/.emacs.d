@@ -1,3 +1,9 @@
+;; Automatically match delimiters
+(electric-pair-mode 1)
+(setq electric-pair-pairs '((?\" . ?\")
+			    (?\{ . ?\})
+			    ))
+
 ;; Backup and Autosave files should be in .emacs.d
 (make-directory "~/.emacs.d/autosaves/" t)
 (setq auto-save-file-name-transforms '((".*" "~/.emacs.d/autosaves/\\1" t)))
