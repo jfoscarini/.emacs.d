@@ -1,3 +1,10 @@
+;; Xclip for seamless integration with system copy/paste buffers
+(when (executable-find "xclip")
+  (use-package xclip
+    :ensure t
+    :init
+    (xclip-mode 1)))
+
 ;; Automatically match delimiters
 (electric-pair-mode 1)
 (setq electric-pair-pairs '((?\" . ?\")
