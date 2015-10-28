@@ -2,6 +2,12 @@
   :init
   (load-theme 'monokai t))
 
+;; Xclip for seamless integration with system copy/paste buffers
+(when (executable-find "xclip")
+  (use-package xclip
+    :config
+    (xclip-mode 1)))
+
 ;; global linum mode, keeping height constant to avoid tearing
 (global-linum-mode 1)
 (eval-after-load "linum"
