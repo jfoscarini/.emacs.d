@@ -1,3 +1,6 @@
+;; Blinking cursors are very distracting
+(if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
+
 ;; Xclip for seamless integration with system copy/paste buffers
 (when (executable-find "xclip")
   (use-package xclip
@@ -36,13 +39,13 @@
 (use-package multi-term)
 
 ;; Activate ido with flx matching
-(use-package flx-ido
-  :config
-  (ido-mode 1)
-  (ido-everywhere 1)
-  (flx-ido-mode 1)
-  (setq ido-enable-flex-matching 1
-	ido-use-faces nil))
+;(use-package flx-ido
+;  :config
+;  (ido-mode 1)
+;  (ido-everywhere 1)
+;  (flx-ido-mode 1)
+;  (setq ido-enable-flex-matching 1
+;	ido-use-faces nil))
 
 ;; Trailing whitespaces are not acceptable
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
