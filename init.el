@@ -30,6 +30,7 @@
 
 ;; Load settings
 (load "misc-settings.el")
+(load "shell-settings.el")
 (load "evil-settings.el")
 (when window-system
   (load "window-system-settings"))
