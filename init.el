@@ -9,11 +9,6 @@
 (add-to-list 'load-path (expand-file-name "settings" user-emacs-directory))
 (load "auxiliary-functions.el")
 
-;; Customized (local) settings are in ./custom.el
-(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-(when (file-exists-p custom-file)
-  (load custom-file))
-
 ;; Add repositories
 (require 'package)
 (add-to-list 'package-archives
@@ -34,6 +29,11 @@
 (load "evil-settings.el")
 (when window-system
   (load "window-system-settings"))
+
+;; Customized (local) settings are in ./custom.el
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(when (file-exists-p custom-file)
+  (load custom-file))
 
 ;; Scratch buffer serves me better at org-mode
 (setq initial-major-mode 'org-mode)
