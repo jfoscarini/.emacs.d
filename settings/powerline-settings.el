@@ -80,6 +80,7 @@
 				     (powerline-raw "%6p" nil 'r))))
 		     (concat (powerline-render lhs)
 			     (powerline-fill face2 (powerline-width rhs))
-			     (powerline-render rhs)))))))
+			     (powerline-render rhs))))))
+  (setq powerline-default-separator 'wave))
 
 (powerline-spacemacs-imitation-theme)
