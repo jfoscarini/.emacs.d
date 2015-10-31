@@ -10,7 +10,8 @@ config.
 
 This is how it looks so far:
 
-![emacs](https://github.com/jfoscarini/.emacs.d/raw/master/img/emacs.png)
+#+ATTR_HTML: :width 640
+[[./img/emacs.png]]
 
 * Introduction
 
