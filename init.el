@@ -28,6 +28,7 @@
 (load "shell-settings.el")
 (load "helm-settings.el")
 (load "evil-settings.el")
+(load "powerline-settings")
 (when window-system
   (load "window-system-settings")
   (load "transparency-settings"))
