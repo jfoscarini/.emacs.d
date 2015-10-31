@@ -2,14 +2,44 @@
 #+AUTHOR:	João Foscarini
 #+EMAIL:	jfoscarini@gmail.com
 
-I like Vim.
-I like Emacs.
-I like Vim and Emacs.
-
 Join me in my adventures to migrate from Vim to Emacs' [[http://emacswiki.org/emacs/Evil][evil]] side.
 
-This will probably be a lenghty process and it is now in very early stages.
+This will probably be a lengthy process and it is now in early stages.
+I am currently experimenting with a lot of plugins to create a decent
+config.
 
-This config is highly inspired by:
+This is how it looks so far:
+
+![emacs](https://github.com/jfoscarini/.emacs.d/raw/master/img/emacs.png)
+
+* Introduction
+
+Vim was so much more attractive to me than Emacs. Allow me to explain.
+
+When I first got in contact with vim and saw vertical selection in action,
+my mind was blown. I thought to myself I was using the most powerful
+editor of all time.
+
+At one point between then and now, there I was with about 5 or 6 terminal
+windows open at the same time. I then realized there was something
+wrong with that setup.
+
+That's when I found Tmux. After weeks of trying to come up with the perfect
+config for me, two problems bothered me to no end: Lack of copy/paste
+integration with X and C-c'ing out of programs. The first problem was solved
+through xclip (still not intuitive). The second problem, though, I never got
+anywhere hacking it.
+
+I've always been curious about Emacs, but never got around learning it.
+Everyone said that I was well served with either one of them, vim and Emacs.
+That's where they were wrong. Emacs and Evil mode have so far shown me
+the best of those two worlds.
+
+I'm now giving Emacs a chance to show it's usefulness. And so far, I'm
+very impressed.
+
+* Special thanks
+
+This config is highly inspired by and based off of:
   - [[https://github.com/diegolascasas/.emacs.d][diegolascasas/.emacs.d]]
   - [[https://github.com/syl20bnr/spacemacs][spacemacs]]
