@@ -29,5 +29,5 @@
       (set-frame-parameter nil 'alpha (+ (frame-parameter nil 'alpha) +2))
     (message "This is a minimum value of transparency!")))
 
-(global-set-key (kbd "C->") 'transparency-increase)
-(global-set-key (kbd "C-<") 'transparency-decrease)
+(global-set-key (kbd "C-<") 'transparency-increase)
+(global-set-key (kbd "C->") 'transparency-decrease)
