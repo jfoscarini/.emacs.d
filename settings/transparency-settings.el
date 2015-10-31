@@ -19,7 +19,7 @@
   (transparency-set-initial-value)
    (if (> (frame-parameter nil 'alpha) 0)
        (set-frame-parameter nil 'alpha (+ (frame-parameter nil 'alpha) -2))
-     (message "This is a minimum value of transparency!")))
+     (message "This is the minimum value of transparency!")))
 
 ;; Decrease level of transparency for the current frame
 (defun transparency-decrease ()
@@ -27,7 +27,7 @@
   (transparency-set-initial-value)
   (if (< (frame-parameter nil 'alpha) 100)
       (set-frame-parameter nil 'alpha (+ (frame-parameter nil 'alpha) +2))
-    (message "This is a minimum value of transparency!")))
+    (message "This is the maximum value of transparency!")))
 
 (global-set-key (kbd "C-<") 'transparency-increase)
 (global-set-key (kbd "C->") 'transparency-decrease)
