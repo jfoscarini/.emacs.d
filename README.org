@@ -8,6 +8,9 @@ This will probably be a lengthy process and it is now in early stages.
 I am currently experimenting with a lot of plugins to create a decent
 config.
 
+I've used parts of [[https://github.com/diegolascasas/.emacs.d][diegolascasas/.emacs.d]] as a starting point.
+It's the most well organized Emacs config I've seen.
+
 This is how it looks so far:
 
 #+ATTR_HTML: :width 640
@@ -44,3 +47,4 @@ very impressed.
 This config is highly inspired by and based off of:
   - [[https://github.com/diegolascasas/.emacs.d][diegolascasas/.emacs.d]]
   - [[https://github.com/syl20bnr/spacemacs][spacemacs]]
+  - [[https://www.reddit.com/r/emacs/comments/36qo2l/i_tried_to_copy_the_spacemacs_powerline_theme_my/][spacemacs-powerline-clone]]
