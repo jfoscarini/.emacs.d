@@ -7,7 +7,7 @@
 
 ;; All setups are in ./settings/
 (add-to-list 'load-path (expand-file-name "settings" user-emacs-directory))
-(load "auxiliary-functions.el")
+(load "auxiliary-functions")
 
 ;; Add repositories
 (require 'package)
@@ -24,10 +24,10 @@
 (setq use-package-always-ensure t)
 
 ;; Load settings
-(load "misc-settings.el")
-(load "shell-settings.el")
-(load "helm-settings.el")
-(load "evil-settings.el")
+(load "misc-settings")
+(load "shell-settings")
+(load "helm-settings")
+(load "evil-settings")
 (load "powerline-settings")
 (when window-system
   (load "window-system-settings")
