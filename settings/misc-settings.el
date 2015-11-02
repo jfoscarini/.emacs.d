@@ -14,6 +14,12 @@
 			    (?\{ . ?\})
 			    ))
 
+;; Show matching delimiters and color them
+(show-paren-mode t)
+(use-package rainbow-delimiters
+  :init
+  (add-hook 'prog-mode-hook 'rainbow-delimiters-mode))
+
 ;; Backup and Autosave files should be in .emacs.d
 (make-directory "~/.emacs.d/autosaves/" t)
 (setq auto-save-file-name-transforms '((".*" "~/.emacs.d/autosaves/\\1" t)))
