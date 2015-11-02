@@ -32,6 +32,10 @@
 		(when (stringp method)
 		  (member method '("su" "sudo"))))))))
 
+;; Enable windmove
+(when (fboundp 'windmove-default-keybindings)
+  (windmove-default-keybindings))
+
 ;; Multi-term works better with ZSH
 (use-package multi-term)
 
