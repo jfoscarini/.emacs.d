@@ -32,6 +32,7 @@
 (when window-system
   (load "window-system-settings")
   (load "transparency-settings"))
+(load "theme-settings")
 
 ;; Customized (local) settings are in ./custom.el
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
