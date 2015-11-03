@@ -32,7 +32,8 @@
   (load "powerline-settings")
   (load "window-system-settings")
   (load "theme-settings")
-  (load "transparency-settings"))
+  (load "transparency-settings")
+  (load "tex-settings"))
 
 ;; Customized (local) settings are in ./custom.el
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
