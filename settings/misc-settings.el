@@ -36,5 +36,8 @@
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
+;(setq mouse-yank-at-point t)
+;(setq x-select-enable-clipboard t)
+
 ;; Trailing whitespaces are not acceptable
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
