@@ -28,4 +28,6 @@
 (global-hl-line-mode 1)
 
 ;; Source code pro is a monospaced font from google fonts
-(set-default-font "Source Code Pro 13")
+(use-package font-utils)
+(when (font-utils-exists-p "Source Code Pro")
+  (set-default-font "Source Code Pro 13"))
