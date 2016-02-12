@@ -1,4 +1,4 @@
-;; Disable default uglyness
+;; Disable default ugliness
 (menu-bar-mode -1)
 (setq inhibit-splash-screen t)
 (when window-system
