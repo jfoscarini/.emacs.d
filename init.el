@@ -25,6 +25,7 @@
 
 ;; Load settings
 (load "misc-settings")
+(load "org-settings")
 (load "shell-settings")
 (load "helm-settings")
 (load "evil-settings")
