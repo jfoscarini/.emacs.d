@@ -1,3 +1,7 @@
+;; Default tab settings
+(setq-default indent-tabs-mode nil)
+(setq default-tab-width 4)
+
 ;; Xclip for seamless integration with system copy/paste buffers
 (when (executable-find "xclip")
   (use-package xclip
