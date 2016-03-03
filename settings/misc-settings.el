@@ -2,6 +2,10 @@
 (setq-default indent-tabs-mode nil)
 (setq default-tab-width 4)
 
+;; Activate disabled keys
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+
 ;; Xclip for seamless integration with system copy/paste buffers
 (when (executable-find "xclip")
   (use-package xclip
