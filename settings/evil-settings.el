@@ -1,4 +1,6 @@
 ;; Evil mode
 (use-package evil
   :init
-  (evil-mode 1))
+  (bind-key* "C--" 'split-window-below)
+  (bind-key* "C-/" 'split-window-right))
+  (evil-mode 1)
